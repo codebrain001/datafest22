@@ -1,0 +1,7 @@
+CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary
+15584532,Lopez,850,France,Male,61,7,64605.95,3,1,0,42085.58
+14295321,Obi,520,Spain,Female,42,1,15430.25,1,0,1,5000.51
+15682355,Datti,772,Germany,Female,34,3,75075.31,3,1,0,38888.52
+15628319,Miller,792,France,Female,32,2,130142.79,1,1,0,119340.88
+16327790,Lee,600,France,Male,37,2,0,1,0,0,140469.38
+1594886,Clark,820,Germany,Female,38,9,0,0,1,0,119708.21

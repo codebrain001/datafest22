@@ -4,9 +4,13 @@ import pandas as pd # For data wrangling operations
 import numpy as np # For scientific computing operations
 import pickle # To load pickle file
 from PIL import Image # Using the Python Imaging Library to load images
+from pathlib import Path
+
+app_path = Path(__file__).parents[0]
+pkl_path = str(app_path) + "/pipeline.pkl"
 
 # load the model pipeline from the app directory
-model_pipeline = pickle.load(open("pipeline.pkl", "rb"))
+model_pipeline = pickle.load(open(pkl_path, "rb"))
 
 def main():
     # Setting application title

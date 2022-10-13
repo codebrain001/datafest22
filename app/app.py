@@ -18,7 +18,7 @@ def main():
     # Setting Application description
     st.markdown(
         """
-        :money: This streamlit app predicts the bank's customer churn status. The application is functional for both online and batch predictions. \n
+        :rocket: This streamlit app predicts the bank's customer churn status. The application is functional for both online and batch predictions. \n
         The project and dataset can be found on GitHub <a href="https://github.com/codebrain001/datafest22"> here</a> and Kaggle <a href="https://github.com/codebrain001/datafest22"> here</a> respectively.
         """, unsafe_allow_html=True
     )

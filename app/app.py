@@ -24,7 +24,8 @@ def main():
     )
 
     # Setting Application sidebar default
-    app_image = Image.open("images/datafest-app.jpg")    # loading image from image folder
+    image_path = str(app_path) + "images/datafest-app.jpg"
+    app_image = Image.open(image_path)    # loading image from image folder
     add_selectbox = st.sidebar.selectbox(
 	"How would you like to predict?", ("Online", "Batch")
     )
